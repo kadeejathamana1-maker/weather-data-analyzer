@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Data Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather Data Analyzer</h1>
+        <p>Enter your weather details below</p>
+
+        <label>City Name</label>
+        <input type="text" id="city" placeholder="Enter city name">
+
+        <label>Temperature (°C)</label>
+        <input type="number" id="temperature" placeholder="Enter temperature">
+
+        <label>Humidity (%)</label>
+        <input type="number" id="humidity" placeholder="Enter humidity">
+
+        <label>Rainfall (mm)</label>
+        <input type="number" id="rainfall" placeholder="Enter rainfall">
+
+        <button onclick="analyzeWeather()">Analyze Weather</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
